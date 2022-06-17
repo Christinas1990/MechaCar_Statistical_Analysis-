@@ -21,9 +21,20 @@ On the other hand by lot table shows lot3 weights more than 100 pounds, which sh
 
 ## T-Tests on Suspension Coils
 
+<img width="631" alt="Screen Shot 2022-06-16 at 9 29 50 PM" src="https://user-images.githubusercontent.com/100255000/174204366-0d15cc74-c9d5-406c-bf1b-8018788f8b49.png">
+<img width="673" alt="Screen Shot 2022-06-16 at 7 46 50 PM" src="https://user-images.githubusercontent.com/100255000/174195961-c063e5f5-a1e6-4778-9cae-acac8f8db8d5.png">
 <img width="630" alt="Screen Shot 2022-06-16 at 7 00 12 PM" src="https://user-images.githubusercontent.com/100255000/174191997-380c636b-904b-404b-9258-494b5f16e538.png">
 <img width="677" alt="Screen Shot 2022-06-16 at 6 58 28 PM" src="https://user-images.githubusercontent.com/100255000/174191863-d2629e83-92f2-41ee-8f0c-436d85fa47e2.png">
 
-The two table shows the paried t-tests of each and all manufacturing lots against mean PSI of the population.
+These results show the paried t-tests of each and all manufacturing lots against mean PSI of the population.
 
+* All Lots are not signifiantly different from the population mean with a p-value of 0.06 meaning we fail to reject null hypothesis. 
+* For Lot 1 we also fail to reject null hypothesis since it has a p-value of 1 which is not significantly different. 
+* Same thing goes to Lot 2, with p-value of 0.61, we fail to reject null hypothesis. 
+* Lastly, for the Lot 3, it has P-value of 0.04 meaning which is significantly smaller than the other two lots. However, the confidence interval for the this Lot excludes the predicted population mean. 
+
+
+## Study Design: MechaCar vs Competition
+
+In my opinion, metrics can be tested are; fuel effiency, cost and capacity, as they are the most great concerns when people decide what car they want to buy.  Null hypothesis will be Mechacar would be statistically similar to other car brands on those 3 metrics and Alternate would say the opppsite. I would recommand ANOVA which can give us outcomes from large datasets. We are comparing Mechacar with various companies and brands cars. Its a mean to compare single dependent variable across a single independent variable with multiple groups. For the test we need datas from many car companies, which can be easily collected from. 
 
